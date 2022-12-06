@@ -314,11 +314,7 @@ button {
 .footer-contact-light:focus {
   color: var(--brand-color-blue);
 }
-.footer-contact-light-mail {
-  filter: opacity(60%);
-  color: var(--brand-color-white);
-  text-decoration: underline;
-}
+
 .footer-contact-light-mail:hover,
 .footer-contact-light-mail:focus {
   color: var(--brand-color-blue);
