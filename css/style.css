@@ -195,6 +195,7 @@ button {
   text-transform: uppercase;
   font-style: bold;
   margin-bottom: 10px;
+  font-size: 14px;
 }
 .description {
   text-align: left;
