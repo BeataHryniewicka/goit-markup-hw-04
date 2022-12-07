@@ -152,7 +152,7 @@ button {
       var(--brand-color-bg-hero)
     ),
     url(../images/bg-images/underlay.jpg), url(../images/bg-images/overlay.jpg);
-  background-size: 1600px, 1600px;
+  background-size: 1600px;
   background-repeat: no-repeat;
   background-position: center;
 }
