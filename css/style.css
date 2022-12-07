@@ -54,6 +54,7 @@ button {
   --brand-color-black: #000000;
   --brand-color-background-black: #2f303a;
   --brand-color-light-grey: #f5f4fa;
+  --brand-color-bg-hero: #2f303a66;
 }
 *,
 *::before,
@@ -146,13 +147,14 @@ button {
 .background-dark {
   background-color: var(--brand-color-background-black);
   padding: 200px 0;
-  background-image: url(../images/bg-images/overlay.jpg), url(../images/bg-images/underlay.jpg);
-  background-size: 1600px, 1600px
-  linear-gradient: #2F303A66;
- 
+  background-image: linear-gradient(
+      var(--brand-color-bg-hero),
+      var(--brand-color-bg-hero)
+    ),
+    url(../images/bg-images/underlay.jpg), url(../images/bg-images/overlay.jpg);
+  background-size: 1600px, 1600px;
   background-repeat: no-repeat;
-  bacground-position: center;
-
+  background-position: center;
 }
 .hero-tittle {
   font-weight: 900;
