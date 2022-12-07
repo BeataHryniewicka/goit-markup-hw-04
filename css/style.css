@@ -146,6 +146,13 @@ button {
 .background-dark {
   background-color: var(--brand-color-background-black);
   padding: 200px 0;
+  background-image: url(../images/bg-images/overlay.jpg), url(../images/bg-images/underlay.jpg);
+  background-size: 1600px, 1600px
+  linear-gradient: #2F303A66;
+ 
+  background-repeat: no-repeat;
+  bacground-position: center;
+
 }
 .hero-tittle {
   font-weight: 900;
