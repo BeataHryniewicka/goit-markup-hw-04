@@ -144,7 +144,7 @@ button {
 .white {
   color: var(--brand-color-white);
 }
-.background-dark {
+.background-hero {
   background-color: var(--brand-color-background-black);
   padding: 200px 0;
   background-image: linear-gradient(
@@ -278,6 +278,10 @@ button {
   background-color: var(--brand-color-blue);
   color: var(--brand-color-white);
   cursor: pointer;
+}
+.background-dark {
+  background-color: var(--brand-color-background-black);
+  padding: 200px 0;
 }
 .footer {
   padding: 60px 0;
