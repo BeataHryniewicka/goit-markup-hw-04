@@ -127,13 +127,22 @@ button {
   letter-spacing: 0.02em;
   font-weight: 500;
 }
-
 .contact-item:not(:last-child) {
   margin-right: 50px;
 }
 .contact:hover,
 .contact:focus {
   color: var(--brand-color-blue);
+}
+.smartphone-icon {
+  fill: var(--brand-color-grey);
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.icon-envelope {
+  fill: var(--brand-color-grey);
+  vertical-align: middle;
+  margin-right: 10px;
 }
 .black {
   color: var(--brand-color-black);
