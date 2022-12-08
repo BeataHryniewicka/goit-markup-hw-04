@@ -134,13 +134,13 @@ button {
 .contact:focus {
   color: var(--brand-color-blue);
 }
-.smartphone-icon {
-  fill: var(--brand-color-grey);
+.icon-smartphone {
+  color: var(--brand-color-grey);
   vertical-align: middle;
   margin-right: 10px;
 }
 .icon-envelope {
-  fill: var(--brand-color-grey);
+  color: var(--brand-color-grey);
   vertical-align: middle;
   margin-right: 10px;
 }
