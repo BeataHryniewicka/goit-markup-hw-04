@@ -198,6 +198,15 @@ button {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+.technologies { 
+background-color:  var(--brand-color-light-grey); ;
+height: 120px;
+ display: flex;
+  gap: 30px;
+ }
+.icon-technologies {
+  padding: auto;
+}
 .description-list {
   display: flex;
   gap: 30px;
