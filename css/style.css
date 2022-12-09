@@ -135,14 +135,11 @@ button {
   color: var(--brand-color-blue);
 }
 .icon-contact {
-  fill: currentColor;
+   --color1: currentColor;
   vertical-align: middle;
   margin-right: 10px;
 }
-.icon-contact:hover,
-.icon-contact:focus {
-fill: var(--brand-color-blue); 
-}
+ 
 .black {
   color: var(--brand-color-black);
 }
