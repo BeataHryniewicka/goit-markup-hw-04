@@ -138,6 +138,7 @@ button {
   color: var(--brand-color-grey);
   vertical-align: middle;
   margin-right: 10px;
+   stroke-width: 10px
 }
 .icon-envelope {
   color: var(--brand-color-grey);
