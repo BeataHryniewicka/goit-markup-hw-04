@@ -138,16 +138,19 @@ button {
   fill: var(--brand-color-grey);
   vertical-align: middle;
   margin-right: 10px;
-
+}
+.icon-smartphone:hover,
+.icon-smartphone:focis{
+fill: var(--brand-color-blue); 
 }
 .icon-envelope {
-  fill: red;
+  fill:  red;
   vertical-align: middle;
   margin-right: 10px;
 }
 .icon-envelope:hover,
 .icon-envelope:focus {
-  fill: currentColor;
+  fill: var(--brand-color-blue);
 }
 .black {
   color: var(--brand-color-black);
