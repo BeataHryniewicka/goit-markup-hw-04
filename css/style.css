@@ -147,7 +147,7 @@ button {
 }
 .icon-envelope:hover,
 .icon-envelope:focus {
-  fill: var(--brand-color-blue);
+  fill: currentColor;
 }
 .black {
   color: var(--brand-color-black);
