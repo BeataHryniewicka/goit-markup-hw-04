@@ -126,6 +126,7 @@ button {
   text-align: left;
   letter-spacing: 0.02em;
   font-weight: 500;
+  fill: currentColor;
 }
 .contact-item:not(:last-child) {
   margin-right: 50px;
