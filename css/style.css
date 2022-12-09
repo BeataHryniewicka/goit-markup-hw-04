@@ -126,7 +126,6 @@ button {
   text-align: left;
   letter-spacing: 0.02em;
   font-weight: 500;
-  fill: currentColor;
 }
 .contact-item:not(:last-child) {
   margin-right: 50px;
@@ -136,7 +135,7 @@ button {
   color: var(--brand-color-blue);
 }
 .icon-smartphone {
-  fill: var(--brand-color-grey);
+  fill: currentColor;
   vertical-align: middle;
   margin-right: 10px;
 }
@@ -145,7 +144,7 @@ button {
 fill: var(--brand-color-blue); 
 }
 .icon-envelope {
-  fill:  red;
+  fill: currentColor;
   vertical-align: middle;
   margin-right: 10px;
 }
