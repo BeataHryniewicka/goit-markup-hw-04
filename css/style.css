@@ -140,7 +140,7 @@ button {
   margin-right: 10px;
 }
 .icon-smartphone:hover,
-.icon-smartphone:focis{
+.icon-smartphone:focus{
 fill: var(--brand-color-blue); 
 }
 .icon-envelope {
