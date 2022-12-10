@@ -135,11 +135,10 @@ button {
   color: var(--brand-color-blue);
 }
 .icon-contact {
-   --color1: currentColor;
+  --color1: currentColor;
   vertical-align: middle;
   margin-right: 10px;
 }
- 
 .black {
   color: var(--brand-color-black);
 }
@@ -149,6 +148,7 @@ button {
 .white {
   color: var(--brand-color-white);
 }
+/* Hero section */
 .background-hero {
   background-color: var(--brand-color-background-black);
   padding: 200px 0;
@@ -198,23 +198,22 @@ button {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-/* ikony technilogi */
-.technologies { 
-background-color:  var(--brand-color-light-grey); ;
-height: 120px;
-display: flex;
-margin-bottom: 30px;
- }
- /* nie działa */
-.icon-technologies {
- padding:  
+/* lorem ipsum section */
+.technologies {
+  background-color: var(--brand-color-light-grey);
+  height: 120px;
+  display: flex;
+  margin-bottom: 30px;
 }
-.description-list {
+/* lorem section */
+.icon-technologies {
+  margin: auto;
+}
+.lorem-list {
   display: flex;
   gap: 30px;
 }
-
-.tittle {
+.lorem-tittle {
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
@@ -222,11 +221,12 @@ margin-bottom: 30px;
   margin-bottom: 10px;
   font-size: 14px;
 }
-.description {
+.lorem-description {
   text-align: left;
   color: var(--brand-color-grey);
   line-height: 1.71;
 }
+/* work section */
 .work {
   padding-top: 0;
 }
@@ -271,6 +271,25 @@ margin-bottom: 30px;
   color: var(--brand-color-grey);
   letter-spacing: 0.03em;
   margin-top: 10px;
+}
+.social-media {
+  display: flex;
+  justify-content: space-between;
+  height: 44px;
+  margin: 16px 32px 0px 32px;
+  
+}
+.social-media-icon {
+ margin: 12px;
+ border: radius 50%}
+.circle-icon {
+  width: 44px;
+}
+.social-media-icon:hover,
+.social-media-icon:focus {
+  cursor: pointer;
+  background-color: var(--brand-color-blue);
+  --color2: var(--brand-color-white);
 }
 .label-btn {
   display: flex;
