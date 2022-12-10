@@ -54,7 +54,9 @@ button {
   --brand-color-black: #000000;
   --brand-color-background-black: #2f303a;
   --brand-color-light-grey: #f5f4fa;
-  --brand-color-bg-hero: #2f303a66;
+   --brand-color-bg-hero: #2f303a66;
+   --brand-color-bg-footer-icon: #FFFFFF1A;
+
 }
 *,
 *::before,
@@ -282,7 +284,7 @@ button {
   border-radius: 50%;
   padding: 12px;
   display: flex;
-  background-color: red;
+
  }
 .social-media-icon:hover,
 .social-media-icon:focus {
@@ -315,13 +317,23 @@ button {
   color: var(--brand-color-white);
   cursor: pointer;
 }
+/* footer */
 .background-dark {
   background-color: var(--brand-color-background-black);
   padding: 200px 0;
 }
 .footer {
-  padding: 60px 0;
-}
+  padding: 60px 0;}
+
+.container-right {
+  display:flex;
+ 
+ ;}
+  .footer-container {
+  margin-right: 70px;
+  
+  }
+
 .contact-down {
   font-style: normal;
   margin-top: 20px;
@@ -390,4 +402,21 @@ button {
   line-height: 1.87;
   text-align: left;
   color: var(--brand-color-grey);
+}
+.join-us {
+
+}
+.join-us-tittle {
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+  font-style: bold;
+  margin-bottom: 4px;
+  margin-top: 12px;
+  font-size: 14px;
+  color: var(--brand-color-white);
+  padding-left: 32px;
+}
+.under {
+    background-color: var(--brand-color-bg-footer-icon);
 }
