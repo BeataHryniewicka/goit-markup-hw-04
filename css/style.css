@@ -284,10 +284,6 @@ button {
   display: flex;
   background-color: red;
  }
-.social-media-icon {
- 
-}
-
 .social-media-icon:hover,
 .social-media-icon:focus {
   cursor: pointer;
