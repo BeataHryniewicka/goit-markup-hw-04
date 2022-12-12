@@ -310,12 +310,15 @@ button {
   letter-spacing: 0.03em;
   font-family: inherit;
   padding: 6px 25px;
+  border-radius: 4px;
 }
 .filters-btn:hover,
 .filters-btn:focus {
   background-color: var(--brand-color-blue);
   color: var(--brand-color-white);
   cursor: pointer;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 /* footer */
 .background-dark {
@@ -325,7 +328,6 @@ button {
 .footer {
   padding: 60px 0;
 }
-
 .container-right {
   display: flex;
 }
@@ -377,11 +379,17 @@ button {
 .footer-contact-light-mail:focus {
   color: var(--brand-color-blue);
 }
+/* karty portfolio */
 .cards {
   display: flex;
   flex-wrap: wrap;
   row-gap: 30px;
   column-gap: 30px;
+}
+.cards-list:hover,
+.cards-list:focus {
+  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 .services {
   padding: 20px 24px;
