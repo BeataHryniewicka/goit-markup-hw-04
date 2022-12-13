@@ -442,7 +442,6 @@ button {
   justify-content: center;
   align-items: center;
 }
-
 .clients-li:focus,
 .clients-li:hover {
   --color3: var(--brand-color-blue);
