@@ -158,10 +158,13 @@ button {
       var(--brand-color-bg-hero),
       var(--brand-color-bg-hero)
     ),
-    url(../images/bg-images/underlay.jpg), url(../images/bg-images/overlay.jpg);
-  background-size: 1600px;
+    url(../images/bg-images/underlay.jpg);
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  max-width: 1600px;
+  height: 600px;
+  margin: 0 auto;
 }
 .hero-tittle {
   font-weight: 900;
@@ -206,11 +209,11 @@ button {
   height: 120px;
   display: flex;
   margin-bottom: 30px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
 }
 /* lorem section */
-.icon-technologies {
-  margin: auto;
-}
 .lorem-list {
   display: flex;
   gap: 30px;
