@@ -436,6 +436,11 @@ button {
 .clients-li {
   border: 1px solid var(--brand-color-icon);
   border-radius: 4px;
+  width: 170px;
+  height: 92px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .clients-li:focus,
