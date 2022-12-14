@@ -135,6 +135,7 @@ button {
 .contact:hover,
 .contact:focus {
   color: var(--brand-color-blue);
+  outline: none;
 }
 .icon-contact {
   --color2: currentColor;
@@ -290,12 +291,13 @@ button {
   height: 44px;
   justify-content: center;
   align-items: center;
-}
+   }
 .social-media:hover,
 .social-media:focus {
   cursor: pointer;
   background-color: var(--brand-color-blue);
   --color3: var(--brand-color-white);
+  outline: none;
 }
 /* our clients */
 .clients {
@@ -311,13 +313,14 @@ button {
   height: 92px;
   display: flex;
   justify-content: center;
-  align-items: center;  
+  align-items: center; 
 }
 .clients-li:hover,
 .clients-li:focus {
   --color3: var(--brand-color-blue);
 cursor: pointer;
 border-color: var(--brand-color-blue);
+outline: none;
 }
 /* footer */
 .background-dark {
