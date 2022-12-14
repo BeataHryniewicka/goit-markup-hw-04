@@ -137,7 +137,7 @@ button {
   color: var(--brand-color-blue);
 }
 .icon-contact {
-  --color1: currentColor;
+  --color2: currentColor;
   vertical-align: middle;
   margin-right: 10px;
 }
@@ -295,33 +295,29 @@ button {
 .social-media:focus {
   cursor: pointer;
   background-color: var(--brand-color-blue);
-  --color2: var(--brand-color-white);
+  --color3: var(--brand-color-white);
 }
-.label-btn {
+/* our clients */
+.clients {
   display: flex;
-  gap: 8px;
-  margin-bottom: 56px;
   justify-content: center;
+  align-items: center;
+  gap: 30px;
 }
-.filters-btn {
-  font-weight: 500;
-  background-color: var(--brand-color-light-grey);
-  font-size: 16px;
-  line-height: 1.62;
-  text-align: center;
-  cursor: pointer;
-  letter-spacing: 0.03em;
-  font-family: inherit;
-  padding: 6px 25px;
+.clients-li {
+  border: 1px solid var(--brand-color-icon);
   border-radius: 4px;
+  width: 170px;
+  height: 92px;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
 }
-.filters-btn:hover,
-.filters-btn:focus {
-  background-color: var(--brand-color-blue);
-  color: var(--brand-color-white);
-  cursor: pointer;
-  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
-    0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+.clients-li:hover,
+.clients-li:focus {
+  --color3: var(--brand-color-blue);
+cursor: pointer;
+border-color: var(--brand-color-blue);
 }
 /* footer */
 .background-dark {
@@ -382,6 +378,47 @@ button {
 .footer-contact-light-mail:focus {
   color: var(--brand-color-blue);
 }
+.join-us-tittle {
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+  font-style: bold;
+  margin-bottom: 4px;
+  margin-top: 12px;
+  font-size: 14px;
+  color: var(--brand-color-white);
+}
+.under {
+  background-color: var(--brand-color-bg-footer-icon);
+}
+
+/* portfolio */
+.label-btn {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 56px;
+  justify-content: center;
+}
+.filters-btn {
+  font-weight: 500;
+  background-color: var(--brand-color-light-grey);
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  cursor: pointer;
+  letter-spacing: 0.03em;
+  font-family: inherit;
+  padding: 6px 25px;
+  border-radius: 4px;
+}
+.filters-btn:hover,
+.filters-btn:focus {
+  background-color: var(--brand-color-blue);
+  color: var(--brand-color-white);
+  cursor: pointer;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+}
 /* karty portfolio */
 .cards {
   display: flex;
@@ -413,38 +450,3 @@ button {
   color: var(--brand-color-grey);
 }
 
-.join-us-tittle {
-  font-weight: 700;
-  line-height: 1.14;
-  text-transform: uppercase;
-  font-style: bold;
-  margin-bottom: 4px;
-  margin-top: 12px;
-  font-size: 14px;
-  color: var(--brand-color-white);
-}
-.under {
-  background-color: var(--brand-color-bg-footer-icon);
-}
-.clients {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 30px;
-}
-
-.clients-li {
-  border: 1px solid var(--brand-color-icon);
-  border-radius: 4px;
-  width: 170px;
-  height: 92px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.clients-li:focus,
-.clients-li:hover {
-  --color3: var(--brand-color-blue);
-  cursor: pointer;
-  border-color: var(--brand-color-blue);
-}
